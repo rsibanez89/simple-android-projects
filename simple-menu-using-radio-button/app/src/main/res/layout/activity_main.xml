@@ -4,14 +4,57 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="rsibanez89.simple_menu_using_radio_button.MainActivity">
 
     <TextView
+        android:id="@id/app_main_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <RadioGroup
+        android:id="@id/app_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <!--If someone knows how to avoid defining the height maintaining the aspect ratio just let me know. Thanks-->
+
+        <RadioButton
+            android:id="@id/app_menu_item_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_1"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked" /> <!--android:checked="true" USE THIS TO SELECT THE FIRST ITEM ON START-->
+
+
+        <RadioButton
+            android:id="@id/app_menu_item_2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_2"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@id/app_menu_item_3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_3"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked" />
+
+        <RadioButton
+            android:id="@id/app_menu_item_4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/menu_item_4"
+            android:button="@null"
+            android:onClick="onRadioButtonClicked" />
+    </RadioGroup>
 </RelativeLayout>

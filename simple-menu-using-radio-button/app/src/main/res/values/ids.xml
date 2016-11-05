@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="app_menu">false</item>
+    <item type="id" name="app_main_text">false</item>
+    <item type="id" name="app_menu_item_1">false</item>
+    <item type="id" name="app_menu_item_2">false</item>
+    <item type="id" name="app_menu_item_3">false</item>
+    <item type="id" name="app_menu_item_4">false</item>
+</resources>
