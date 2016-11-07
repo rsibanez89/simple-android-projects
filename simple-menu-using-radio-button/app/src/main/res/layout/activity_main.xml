@@ -18,7 +18,7 @@
         android:layout_height="60dp"
         android:layout_alignParentBottom="true"
         android:orientation="horizontal">
-        <!--If someone knows how to avoid defining the height maintaining the aspect ratio just let me know. Thanks-->
+        <!--If someone knows how to avoid defining the height and maintaining the aspect ratio just let me know. Thanks-->
 
         <RadioButton
             android:id="@id/app_menu_item_1"
